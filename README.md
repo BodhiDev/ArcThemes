@@ -11,8 +11,8 @@ Based upon the original arc gtk design from [horst3180](https://github.com/horst
 I decide to move all our theme source code to BodhiDev. But LeBLues technic to build two themes from one sourc code was problematic for two reasons: 
 
  * It created code that could not be decomiled with edje_decc. People expect edje_decc to obe able to decompile e themes.
- * Stefans fork of LeBlues enlightenment-arc-theme turned into the MoskhaArcGreen theme and no longer could be uesed to build the arc and arc dark themes.
- * Seperating the source code for the three themes now means each theme can develop independently. As the MoskhaArcGreen theme is the default theme for BL 5.0, features not wanted or desired in the other two ar themes can now be added. 
+ * Štefan's fork of LeBlues enlightenment-arc-theme turned into the MoskhaArcGreen theme and no longer could be used to build the arc and arc dark themes.
+ * Separating the source code for the three themes now means each theme can develop independently. As the MoskhaArcGreen theme is the default theme for BL 5.0, features not wanted or desired in the other two ar themes can now be added. 
 
 ### Disadvantages of a copy here
 
