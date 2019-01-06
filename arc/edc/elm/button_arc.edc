@@ -2241,6 +2241,10 @@ group { name: "elm/button/base/combobox_vertical/default";
             inherit: "default";
             color_class: "arrow_icon_pressed";
          }
+         desc { "disabled";
+            inherit: "default";
+            color_class: "button_bg_disabled";
+         }
       }
    }
    programs {
