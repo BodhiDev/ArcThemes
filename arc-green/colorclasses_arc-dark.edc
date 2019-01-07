@@ -63,7 +63,9 @@
 #define COL_ERROR                252  65  56 255
 #define COL_WARNING              242 120  53 255
 
-
+// colors for modules
+#define MEM_MOD_REAL             COL_ENABLE
+#define MEM_MOD_SWAP             255 0 0 128
 
 color_classes {
 
@@ -901,5 +903,13 @@ color_classes {
    color_class { name: "calendar_weekend";
       color: COL_FONT_BASIC_INACTIVE;
       desc: "Calendar weekend";
+   }
+   color_class { name: "mem_module_real";
+      color: MEM_MOD_REAL; 
+      desc: "Memory real";
+   }
+    color_class { name: "mem_module_swap";
+       color: MEM_MOD_SWAP;
+       desc: "Memory swap";
    }
 }

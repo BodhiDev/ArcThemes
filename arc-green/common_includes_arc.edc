@@ -139,7 +139,7 @@
 // #include "../orig-theme/edc/packagekit.edc"
 // #include "../orig-theme/edc/wireless.edc"
 #include "edc/time_arc.edc"
-
+#include "edc/mem_arc.edc"
 // icons
 #include "edc/icons.edc"
 // #include "../orig-theme/edc/border-icons.edc"
